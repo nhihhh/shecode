@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Khám phá du lịch Đà Nẵng</title>
+<style>
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+  background-color:#f6fca1;
+    color: #383838;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+    .ImageChange {
+    margin-right: 5px;
+    max-width: 230px;
+    height: 80px;
+    }
+     .ChangeVitnam {
+     margin-left:15px;
+     margin-top: 20px;
+    max-width: 260px;
+    height: 40px;
+    }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+
+  /* Layout */
+  .examples {
+    margin: 30px auto;
+    width: 940px;
+  }
+  .examples h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+  }
+  /* phần background trắng che line bên dưới */
+  .examples h2 span {
+  background-color:#f6fca1;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+  }
+  /* line của h2 */
+  .examples h2:after {
+    background-color: #e1e0e0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+  }
+  .examples .example-list li {
+    float: left;
+    margin-right: 26px;
+    width: 200px; /*chiều rộng tấm hình*/
+  }
+  .examples .example-list li:nth-child(4n) {
+    margin-right: 0;
+  }
+</style>
+</head>
+<body>
+  <section class="examples">
+    <h2><span>Hãng máy bay</span></h2>
+    <ul class="example-list">
+      <li><a href="./"><img src="https://media.loveitopcdn.com/3807/logo-vietjet-20.png" alt="" class="ImageChange"></a></li>
+      <li><a href="./"><img src="https://logos-download.com/wp-content/uploads/2016/05/AirAsia_logo_text.png" alt=""  class="ImageChange"></a></li>
+      <li><a href="./"><img src="https://bambooairways-online.vn/wp-content/uploads/2019/07/bamboo-airways-daily-2019.png" alt="" class="ImageChange"></a></li>
+      <li><a href="./"><img src="https://logonoid.com/images/vietnam-airlines-logo.png" alt=""  class="ChangeVitnam"></a></li>
+    </ul>
+  </section>
+</body>
+</html>
